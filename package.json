@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tsc --watch & nodemon index.js",
-    "start": "tsc | node index.js"
+    "test": "tsc-watch --onSuccess 'node ./'",
+    "start": "tsc | node ./"
   },
   "keywords": [],
   "author": "deathcrafter",
