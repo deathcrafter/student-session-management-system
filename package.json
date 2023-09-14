@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tsc-watch --onSuccess 'node ./'",
+    "dev": "tsc-watch --onSuccess 'node ./'",
     "start": "tsc | node ./"
   },
   "keywords": [],
